@@ -1,0 +1,48 @@
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 200px; }
+  @media all and (max-width: 768px) {
+    body {
+      margin-bottom: 400px; } }
+
+.features {
+  margin: 20px 0; }
+  .features .glyphicon {
+    font-size: 32px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  color: #efefef;
+  background-color: #333; }
+  footer a, footer a:hover {
+    color: #9af7fe; }
+  footer .glyphicon {
+    font-size: 14px;
+    margin-right: 5px; }
+    @media all and (max-width: 768px) {
+      footer .glyphicon {
+        height: 400px; } }
+
+.quote {
+  background-color: #444;
+  color: #e1e1e1;
+  margin: 2em 0; }
+  .quote blockquote {
+    border: none;
+    margin: 0; }
+  .quote .quote-footer {
+    color: #c1c1c1; }
+
+.transport-systems .row {
+  margin-bottom: 2em; }
+.transport-systems .glyphicon {
+  font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */
