@@ -26,9 +26,9 @@ footer {
   footer .glyphicon {
     font-size: 14px;
     margin-right: 5px; }
-    @media all and (max-width: 768px) {
-      footer .glyphicon {
-        height: 400px; } }
+  @media all and (max-width: 768px) {
+    footer {
+      height: 400px; } }
 
 .quote {
   background-color: #444;
@@ -42,7 +42,6 @@ footer {
 
 .transport-systems .row {
   margin-bottom: 2em; }
+
 .transport-systems .glyphicon {
   font-size: 14px; }
-
-/*# sourceMappingURL=main.css.map */
