@@ -3,10 +3,42 @@ html {
   min-height: 100%; }
 
 body {
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  font-family: 'Lato', sans-serif; }
   @media all and (max-width: 768px) {
     body {
       margin-bottom: 400px; } }
+
+.navbar {
+  background-color: #337ab7; }
+  .navbar a {
+    color: #d8e6f3; }
+    .navbar a:hover {
+      color: #fff; }
+
+.navbar-toggle .icon-bar {
+  background-color: #d8e6f3; }
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:active, .dropdown-menu .open > a:focus, .dropdown-menu .open > a:hover, .dropdown-menu .open > a:active, .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active, .nav .open > a:focus, .nav .open > a:hover, .nav .open > a:active {
+  background-color: #204674;
+  color: #d8e6f3; }
+
+@media all and (max-width: 768px) {
+  .dropdown-menu > li > a, .dropdown-menu .open > a, .nav > li > a, .nav .open > a {
+    color: #d8e6f3; } }
+
+.container {
+  max-width: 960px; }
+
+.well {
+  background-color: transparent; }
+
+.lead {
+  color: #555; }
+
+.btn-lg {
+  padding: 14px 20px;
+  margin-right: 20px; }
 
 .features {
   margin: 20px 0; }

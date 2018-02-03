@@ -3,11 +3,8 @@
 
 {% block content %}
 
-<!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
 {% include "partials/header.nunjucks" %}
 {% include "partials/quote.nunjucks" %}
 {% include "partials/transport_systems.nunjucks" %}
 {% include "partials/notifications.nunjucks" %}
-{% include "partials/footer.nunjucks" %}
 {% endblock %}

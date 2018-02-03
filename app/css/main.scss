@@ -1,4 +1,6 @@
 $sm: 768px;
+$light-blue:#d8e6f3;
+$dark-blue:#204674;
 
 html {
   position: relative;
@@ -7,11 +9,53 @@ html {
 
 body {
   margin-bottom: 200px;
+  font-family: 'Lato', sans-serif;
   @media all and (max-width: $sm) {
     margin-bottom: 400px;
   }
 }
 
+.navbar {
+    background-color: rgb(51,122,183);
+    a {
+        color: $light-blue;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.navbar-toggle .icon-bar {
+    background-color: $light-blue;
+}
+.dropdown-menu,.nav {
+   >li>a,.open>a {
+        &:focus,&:hover,&:active {
+        background-color: $dark-blue;
+        color: $light-blue;
+        }
+        @media all and (max-width: $sm) {
+        color: $light-blue;  
+       }
+    }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.well {
+    background-color: transparent;
+}
+
+.lead {
+    color:#555;
+}
+
+.btn-lg {
+    padding: 14px 20px;
+    margin-right: 20px;
+}
 
 .features {
   margin: 20px 0;

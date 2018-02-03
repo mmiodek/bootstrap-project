@@ -1,0 +1,6 @@
+<!-- blog.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% endblock %}
