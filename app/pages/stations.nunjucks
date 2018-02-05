@@ -1,0 +1,6 @@
+<!-- stations.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+stations
+{% endblock %}

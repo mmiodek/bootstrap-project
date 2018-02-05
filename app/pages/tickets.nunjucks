@@ -1,0 +1,6 @@
+<!-- tickets.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+tickets
+{% endblock %}

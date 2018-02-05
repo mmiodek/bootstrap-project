@@ -17,6 +17,11 @@ body {
 
 .navbar {
     background-color: rgb(51,122,183);
+    
+    li.active {
+        background-color: $dark-blue;
+        color: $light-blue;
+    }
     a {
         color: $light-blue;
         &:hover {
@@ -62,6 +67,18 @@ body {
   .glyphicon {
     font-size: 32px;
   }
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0px 5px 5px;
+    min-height: 180px;
+    margin-bottom: 20px;
+    .tab-pane {
+        padding: 10px;
+        color: #555;
+    }
 }
 
 footer {

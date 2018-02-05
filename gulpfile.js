@@ -29,6 +29,7 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
   gulp.watch('app/css/*.scss', ['sass']);
   gulp.watch('app/templates/**/*.nunjucks', ['nunjucks']);
+  gulp.watch('app/pages/**/*.nunjucks', ['nunjucks']);
 });
 
 // Default Task
