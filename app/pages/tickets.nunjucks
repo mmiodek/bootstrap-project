@@ -3,6 +3,12 @@
 
 {% block content %}
 <div class="container">
-  <div class="row"><div class="col-md-12"><h2>Tickets</h2></div></div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Tickets</h2>
+    </div> 
+  </div>
+  {% include "partials/tickets-form.nunjucks" %}
 </div>
+
 {% endblock %}

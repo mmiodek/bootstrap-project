@@ -1,0 +1,39 @@
+<form action="">
+  <div class="form-group row">
+    <label for="emailInput" class="col-md-2 text-right">Email Address</label>
+    <div class="col-md-10">
+      <input type="email" class="form-control" id="emailInput">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="from" class="col-md-2 text-right">From</label>
+    <div class="col-md-4">
+      <select name="" id="from" class="custom-select">
+        <option selected>Select start point</option>
+        <option value="Kraków">Kraków</option>
+        <option value="Katowice">Katowice</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Wrocław">Wrocław</option>
+      </select>
+    </div>
+    <label for="from" class="col-md-2 text-right">To</label>
+    <div class="col-md-4">
+      <select name="To:" id="to" class="custom-select">
+        <option selected>Select destination</option>
+        <option value="Kraków">Kraków</option>
+        <option value="Katowice">Katowice</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Wrocław">Wrocław</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-6 form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">One way ticket</label>
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">Round trip ticket</label>
+    </div>
+  </div>
+
+</form>
